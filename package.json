@@ -1,0 +1,23 @@
+{
+  "name": "object-recursive-filter",
+  "version": "1.0.0",
+  "description": "Module to recursively filter-in or filter-out object properties based on the provided predicate.",
+  "main": "index.js",
+  "scripts": {
+      "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdacjs/object-recursive-filter.git"
+  },
+  "author": "Juan Convers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webdacjs/object-recursive-filter/issues"
+  },
+  "homepage": "https://github.com/webdacjs/object-recursive-filter#readme",
+  "devDependencies": {
+    "tap-colorize": "^1.2.0",
+    "tape": "^4.9.0"
+  }
+}
