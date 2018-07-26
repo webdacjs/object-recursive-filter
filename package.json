@@ -1,10 +1,10 @@
 {
   "name": "object-recursive-filter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Module to recursively filter-in or filter-out object properties based on the provided predicate.",
   "main": "index.js",
   "scripts": {
-      "test": "node test.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
