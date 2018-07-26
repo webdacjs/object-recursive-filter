@@ -32,17 +32,20 @@ const countries = {
   canada: { code: 'ca', area: 9984670 },
   NonExistingCountry: undefined,
   Brasil: { code: 'br', area: 8511965 },
-  anotherNonExisting: null
+  anotherNonExisting: null,
+  europe: {
+    France: {code: 'fr', area: 551394},
+    NonEuropeanCountry: null
+  }
 }
 
 orf.filterOutBy(countries, x => !x);
 // Returns
-// {
-//   Colombia: { code: 'co', area: 1197411 },
+// { Colombia: { code: 'co', area: 1197411 },
 //   Argentina: { code: 'ar', area: 2766890 },
 //   canada: { code: 'ca', area: 9984670 },
-//   Brasil: { code: 'br', area: 8511965 }
-// }
+//   Brasil: { code: 'br', area: 8511965 },
+//   europe: { France: { code: 'fr', area: 551394 } } }
 
 ```
 
